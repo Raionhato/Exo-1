@@ -1,0 +1,49 @@
+
+/* Ici on modifie le titre */
+h1{
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+/***************************/
+
+/*Ici on modifie la liste*/
+li{
+  list-style-type: square;
+}
+/*************************/
+
+/*Ici on modifie le tableau */
+table{
+  border-collapse: collapse;
+}
+/***************************/
+
+/*Ici on modifie les colonnes du tableau */
+th, td{
+  text-align: center;
+  border: 2px solid royalblue;
+  width: 200px;
+  height: 50px;
+}
+th{
+  background-color: lavender;
+}
+/*****************************************/
+
+/*Ici on modifie l'image de background*/
+body{
+background-image:url(../image/japon.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+/******************************************/
+
+/*Ici on modifie la div*/
+div{
+  height: 400px;
+  width: 600px;
+  background-color: rgba(0,0 ,0 , 0.5);
+
+}
+/*******************************************/
